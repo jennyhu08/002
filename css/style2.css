@@ -1,0 +1,78 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(131, 82, 116);
+    letter-spacing: 1px;
+    font-family:sas-serif;
+    font-size: .9rem;
+    }
+
+.a{
+    border: 2px solid rgb(131, 82, 116);
+    padding: 7px 5px;
+    background-color: #F3C5C5;
+	}
+
+td {
+    text-align: center;
+    }
+
+.b{
+    border: 2px solid rgb(131, 82, 116);
+    background-color: #FFD9C0;
+    }
+
+.c{
+    border: 2px solid rgb(131, 82, 116);
+    background-color: #F4BFBF;
+    }
+
+html{
+    background-color: #F5F0BB;
+}
+
+h1{
+    background-color: rgb(223, 191, 202);
+    margin-left:620px;
+    margin-right:620px;
+    font-family: 'Dancing Script', cursive;
+    }
+
+h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    }
+
+p{
+    color: #694E4E;
+    font-family: 'Edu SA Beginner', cursive;
+    }
+
+ul{
+    color:#694E4E;
+    font-family:'Edu SA Beginner', cursive;
+    }
+
+.disney{
+    font-family: 'Dancing Script', cursive;
+    }
+
+.profile{
+    width:20%;
+    margin-left: 500px;
+    border-style: dotted;
+    border-color:#ECB390;
+
+    }
+
+.cute{
+    width:20%;
+    transform: rotate(15deg);
+    margin-right: 100px;
+    }
+
+.first{
+    border-width: 50px;
+	position:relative;
+	max-height: 10%;
+	margin: 10px auto 10px auto;
+	padding: 10%;
+    }
