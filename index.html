@@ -1,8 +1,8 @@
 <html>
     <head>
       <meta charset="utf-8" />
-      <title>That's me👧</title>
-      <link rel="stylesheet" href="css/style2.css">
+      <title>That's me！</title>
+      <link rel="stylesheet" href="css/style.css">
       <link rel="icon" href="img/mickey.ico">
       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Edu+SA+Beginner&family=Edu+VIC+WA+NT+Beginner&display=swap" 
       rel="stylesheet">
@@ -12,37 +12,37 @@
       rel="stylesheet">
     </head>
     <body>
-      <h1 style="color:rgb(209, 124, 136)">⭐About me⭐</h1>
-      <div class="first">
-        <p>Hello! I'm really happy you're reading my website😃</p>
-        <img class="cute" src="img/rabbit.gif" alt="hi gif"/>
+      <ul class="control">
+        <li class="barra"><a href="#castel">home</a></li>
+        <li class="barra"><a href="#about">about me</a></li>  
+        <li class="barra"><a href="#things I like">things I like</a></li>
+        <li class="barra"><a href="#more">more</a></li>
+        <li class="barra" style="float:right"><a href="#contacts">contact</a></li>
+        <li class="barra"><a href="https://fansided.com/2019/11/15/10-darkest-disney-movies/">curiosity Disney</a></li>
+      </ul>
+      <p id="castel"><img class="castel" src="img/castel.jpg" alt="disney img"/></p>
+      <h1 id="about">⭐About me⭐</h1>
+      <div id="first" style="display:inline-block">
+        <img class="hello" src="img/hello.gif" alt="hello gif"/>
+        <p>Welcome to my website😃</p>
       </div>
-      <div class="second">
-        <p>Let me introduce myself.</p>
+      <div id="second" style="display:inline-block">
         <p>My name is Jennifer and I'm fourteen. I was born on 29 February, so actually my "real" age is 3. </p>
+        <p>I've just finished the middle school. The next year I'm going to Convitto high school.</p>
+        <p>I live in Rome. This is one of the most famose places on the world I think.</p>
+        <p>There are many monuments to visit here.</p>
       </div>
-      <div class="third">
-      <h2 style="color:#d8a1a1">That's me</h2>
-      <img class="profile" src="img/small.jpg" alt="Jennifer profile picture"/>
+      <div id="third" style="display:inline-block">
+        <h2>That's me👇</h2>
+        <img class="profile" src="img/small.jpg" alt="Jennifer profile picture"/>
      </div>
-      <br>
-      <p>I'm a big fan of <span class="disney" style="color:rgb(196, 101, 156)">Disney</span>! I love their cartoons. Disney was also the topic of my exam! </p>
-      <p>If you want to see Disney's official website, here's the link👇</p>
-      <a href="https://www.disney.it/">Click there!</a>
-      <p>And this is the list of my most favourite film:</p>
-      <ul>
-        <li>Mulan</li>
-        <li>Soul</li>
-        <li>Aladin</li>
-        <li>Raya and the last Dragon</li>
-      <p>But did you know that also Disney has dark sides?</p>
-      <button><img src="img/mickey.jpg" alt="new website"/></button>
-      <hr>
-      <p>Here's a small table</p>
+      <br> 
+    <div id="fourth" style="display:inline-block">
+      <p id="things I like">Here's a small table</p>
       <table>
         <thead>
               <tr>
-                  <th colspan="3" style="background-color:rgb(194, 153, 192)">Things I like❤️</th>
+                  <th colspan="3" style="background-color:#D4B2C3">Things I like❤️</th>
               </tr>
         </thead>
           <caption></caption>
@@ -65,5 +65,26 @@
           </tr>
         </tbody>
       </table>
+    </div>
+    <br>
+    <div id="fifth">
+      <p id="more">I'm a big fan of <span class="disney">Disney</span>! I love their cartoons. Disney was also the topic of my exam! </p>
+      <p>If you want to see Disney's official website, <a href="https://www.disney.it">here's the link</a></p>                               
+      <p>And this is the list of my most favourite film:</p>
+      <ul>
+        <li>Mulan</li>
+        <li>Soul</li>
+        <li>Aladin</li>
+        <li>Raya and the last Dragon</li>
+      </ul>
+      <p class="dark">But did you know that also Disney has dark sides?</p>
+     <a href='https://fansided.com/2019/11/15/10-darkest-disney-movies/'></href> <button class="dark"><img class="mickey" src="img/mickey.jpg" alt="new website"/></button></a>
+    </div>
+      <hr>
+      <div id="contacts" style="text-align:center">
+        <p>📱 +39 388 456 3189</p>
+        <em>📧 hu.jennifer2008@gmail.com</em>
+        <p class="copyright">© 2022 June Jennifer</p>
+      </div>
     </body>
 </html>

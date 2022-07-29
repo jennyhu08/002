@@ -1,15 +1,15 @@
 table {
     border-collapse: collapse;
-    border: 2px solid rgb(131, 82, 116);
+    border: 2px solid #B2B4C6;
     letter-spacing: 1px;
     font-family:sas-serif;
     font-size: .9rem;
     }
 
 .a{
-    border: 2px solid rgb(131, 82, 116);
+    border: 2px solid #EBC7C0;
     padding: 7px 5px;
-    background-color: #F3C5C5;
+    background-color: #F6E5D5;
 	}
 
 td {
@@ -17,33 +17,69 @@ td {
     }
 
 .b{
-    border: 2px solid rgb(131, 82, 116);
-    background-color: #FFD9C0;
+    border: 2px solid #EBC7C0;
+    background-color: #F6E5D5;
     }
 
 .c{
     border: 2px solid rgb(131, 82, 116);
-    background-color: #F4BFBF;
+    background-color: #F6E5D5;
     }
 
 html{
-    background-color: #F5F0BB;
-}
+    background-color: #FEF5ED;
+    border-style: dotted;
+    border-top: none;
+    border-width: 20px;
+    border-color: #f1e4e2;
+    }
+
+.control{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        width: 90%;
+        border: 1px;
+        border-color:#B2B4C6;
+    }
+.barra{
+        float: left;
+    }
+.barra a {
+        display: block;
+        color: #694E4E;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+.barra a:hover {
+        background-color: #B2B4C6;
+    }
+.barra {
+        border-right: 1px solid #D4B2C3;
+    }
+.barra:last-child {
+        border-right: none;
+    }
 
 h1{
-    background-color: rgb(223, 191, 202);
-    margin-left:620px;
-    margin-right:620px;
+    color: #B2B4C6;
+    text-align: center;
     font-family: 'Dancing Script', cursive;
     }
 
 h2{
+    color: #D4B2C3;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     }
 
 p{
     color: #694E4E;
-    font-family: 'Edu SA Beginner', cursive;
+    font-size: .9rem；
     }
 
 ul{
@@ -51,28 +87,77 @@ ul{
     font-family:'Edu SA Beginner', cursive;
     }
 
+em{
+    color:#694E4E;
+    }
+
 .disney{
+    color: #D4B2C3;
     font-family: 'Dancing Script', cursive;
     }
 
 .profile{
-    width:20%;
-    margin-left: 500px;
+    width:150px;
+    margin-left: 20px;
     border-style: dotted;
     border-color:#ECB390;
-
+    border-width: 20px;
     }
 
-.cute{
-    width:20%;
-    transform: rotate(15deg);
-    margin-right: 100px;
+.hello{
+    width:150px;
+    margin-right: 10px;
+    vertical-align: middle;
     }
 
-.first{
-    border-width: 50px;
+.castel{
+    width:1000px;
+    }
+
+.mickey{
+    width:50px;
+    }
+
+.dark{
+    display: inline;
+    }
+
+#castel{
+    text-align: center;
+    }
+
+#first{
+    border: 10px;
+	position:relative;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+    }
+
+#second{
+    border: 50px;
+	position:relative;
+	margin: 10px 10px 10px 10px;
+	padding: 20px;
+    }
+
+#third{
+    border-width: 10px;
 	position:relative;
 	max-height: 10%;
 	margin: 10px auto 10px auto;
-	padding: 10%;
+	padding: 10px;
     }
+
+#fourth{
+    border-width: 50px;
+	max-height: 10%;
+	margin: 10px 10px 10px 10px;
+	padding: 10px;
+    }
+
+#fifth{
+    border-width: 50px;
+	margin: 150px 10px 10px 10px;
+	padding: 20px;
+    }
+
